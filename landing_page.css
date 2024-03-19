@@ -1,0 +1,72 @@
+.main{
+
+    background-color:#7a948b ;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.logo{
+    /* background-color:#E55451; */
+    background: url(../../images/zumba.jpg);
+    width: 80px;
+    height: 80px;
+    margin-top: 9px;
+    margin-left: 5px;
+    border-radius: 10px;
+    text-align: center;
+    ;
+}
+.logo_name{
+    /* background-color:#4CC417; */
+    width: 90px;
+    height: 30px;
+    margin-top: 29px;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: black
+
+    
+}
+.menu{
+    background-color:blue;
+    height:60px;
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+.menu_buttons{
+    /* background-color:yellow; */
+    background-color:#7a948b  ;
+    height:60px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: inset;
+    font-weight: bold;
+    color: white;
+}
+.home:hover{
+    transform: translatey(-5px);
+
+}
+.menu_buttons:hover{
+    background-color: rgb(102, 253, 56);
+    color: rgb(255, 0, 119);
+}
+.body{
+     background-color: rgb(19, 14, 17); 
+    /* background: url(../../images/hi.jpg); */
+    height: 600px;
+    width: 1332px;
+}
